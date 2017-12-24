@@ -1,0 +1,96 @@
+body
+{
+	background-color: #202020;
+}
+
+h1{
+	color: white;
+	font-family: Verdana;
+	font-size: 3.2vw;
+}
+h3{
+	color: white;
+	font-family: Helvetica;
+	font-size: 1.8vw;
+}
+
+
+hr{
+	border-color: #CD5C5C;
+	border-width: 3px;
+}
+
+blockquote
+{
+    border-left: 1px solid #CD5C5C;
+    border-top: 1px solid #CD5C5C;
+    box-shadow: 5px 5px;
+    padding: 2%;
+    font-style: italic;
+}
+
+td{
+    margin: 10%;
+    width: 10%;
+}
+
+#menu{
+	/*height: 100%;
+    margin: auto;*/
+}
+
+#menu2{
+	vertical-align: middle;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#menu ul li{
+	text-decoration: none;
+	list-style-type: none;
+    margin: auto;
+	margin-bottom: 15px;
+	padding: 0.3vw;
+	font-family: Helvetica;
+	font-size: 2vw;
+	background-color: #CD5C5C;
+	text-align: center;
+    max-width: 80%;
+}
+
+#menu ul li a:link{
+	text-decoration: none;
+	color: black;
+}
+	
+#menu ul li a:visited
+{
+	font-weight: bold;
+	color: black;
+}
+
+#menu ul li:hover
+{
+	background-color: #FA8072;
+}
+
+#menu ul li a:active
+{
+	font-weight: bold;
+}
+
+#contentbg{
+	background-color: #282828;
+	min-height: 100%;
+	height: 100%;
+	width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.content{
+	color: white;
+	padding: 5%;
+	font-size: 1.2em;
+	text-align: justify;
+}
