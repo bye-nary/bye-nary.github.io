@@ -1,17 +1,18 @@
 body
 {
 	background-color: #202020;
+	font-size: 100%;
 }
 
 h1{
 	color: white;
 	font-family: Verdana;
-	font-size: 3.2evw;
+	/*font-size: 3.2evw;*/
 }
 h3{
 	color: white;
 	font-family: Helvetica;
-	font-size: 2.1vw;
+	font-size: 2em;
 }
 
 
