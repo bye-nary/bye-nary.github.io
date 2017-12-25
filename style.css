@@ -12,7 +12,7 @@ h1{
 h3{
 	color: white;
 	font-family: Helvetica;
-	font-size: 2em;
+	font-size: 80%;
 }
 
 
@@ -92,6 +92,6 @@ td{
 .content{
 	color: white;
 	padding: 5%;
-	font-size: 80%;
+	font-size: 75%;
 	text-align: justify;
 }
