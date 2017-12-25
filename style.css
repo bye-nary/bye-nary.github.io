@@ -6,12 +6,12 @@ body
 h1{
 	color: white;
 	font-family: Verdana;
-	font-size: 3.2vw;
+	font-size: 2.5em;
 }
 h3{
 	color: white;
 	font-family: Helvetica;
-	font-size: 1.8vw;
+	font-size: 2.1em;
 }
 
 
@@ -91,6 +91,6 @@ td{
 .content{
 	color: white;
 	padding: 5%;
-	font-size: 1.6vw;
+	font-size: 2em;
 	text-align: justify;
 }
