@@ -124,3 +124,6 @@ hr{
     margin-bottom: 0 !important;
 }
 
+details summary:focus{
+    outline: 0;
+}
