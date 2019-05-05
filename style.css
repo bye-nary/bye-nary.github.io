@@ -1,8 +1,12 @@
 html, body{
     margin: 0;
     padding: 0;
-    height: 100%;
-    background: linear-gradient(to bottom right, #100c08, #080808, #100c08);
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #100c08, #2e2d2d, #100c08) no-repeat;
+}
+
+.container{
+    padding-top: 2em;
 }
 
 .name{
@@ -12,6 +16,7 @@ html, body{
     line-height: 1;
     letter-spacing: 1.5;
     word-spacing: 2;
+    font-family: 'Acme', sans-serif;
 }
 
 .desc{
@@ -21,6 +26,8 @@ html, body{
     line-height: 1;
     letter-spacing: 1.5;
     word-spacing: 2;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.21em;
 }
 
 .nav{
@@ -28,11 +35,92 @@ html, body{
 
 }
 
+.content a{
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-family: 'Khand', sans-serif;
+}
+
+.content a:hover{
+    color: wheat;
+    border-bottom: 1px solid wheat;
+    text-decoration: none;
+}
+
 .nav a{
     color: white;
-    text-decoration: underline;
+    font-family: 'Khand', sans-serif;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-size: 1.1rem;
 }
 
 .nav a:hover{
     color: wheat;
+    text-decoration: none;
+    border-color: wheat;
 }
+
+.content{
+    color: white;
+    margin-top: 2em;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.2rem;
+}
+
+details{
+    margin-top: 1.5em;
+}
+
+details:nth-last-child(1){
+    margin-bottom: 2em;
+}
+
+details summary{
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+
+details summary::-webkit-details-marker{
+    display: none;
+}
+
+details summary:before{
+    content: "[ + ]";
+    color: white;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+details[open] summary:before{
+    content: "[ – ]";
+}
+
+details summary:hover, details summary:hover::before{
+    color: wheat;
+}
+
+details > div{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+footer{
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    color: white;
+    background-color: white;
+    border: none;
+    margin-bottom: 0 !important;
+}
+
