@@ -75,7 +75,7 @@ details{
 }
 
 details:nth-last-child(1){
-    margin-bottom: 4em;
+    margin-bottom: 7em;
 }
 
 details summary{
@@ -137,4 +137,8 @@ details summary:focus{
     .desc{
         text-align: center;
     }
+    
+    details:nth-last-child(1){
+    margin-bottom: 2em;
+}
 }
